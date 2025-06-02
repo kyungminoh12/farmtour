@@ -1,0 +1,36 @@
+
+body {
+  background-color: #f8fff0;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  color: #2c5e2e;
+}
+.badge {
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.badge:hover {
+  transform: scale(1.05);
+}
+.course-icon {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+  background-color: #fff;
+  border: 2px solid #cce5cc;
+  border-radius: 50%;
+  line-height: 150px;
+  font-size: 1.2em;
+  color: #2c5e2e;
+  font-weight: bold;
+  text-decoration: none;
+}
+.course-icon:hover {
+  background-color: #e9f8e9;
+  transform: scale(1.1);
+}
